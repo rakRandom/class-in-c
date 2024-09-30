@@ -120,6 +120,7 @@ One of the types of pointers that can be created is the function pointer. But, b
 Basically, a function is a bunch of machine code that generally are stored at the executable file and then passed to the `.code` memory area. But what we use to call the function when we are programming is not exactly the function, it is a pointer to it.
 
 We can define a function pointer in C using the following syntax rule:
+
 `<return type> (*<variable name/function name>)(<parameter types>)`
 
 > _Yes, it was all pointers, from the beginning to the end._
